@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"godesde0/variables"
+	"godesde0/ejercicios"
 )
 
 func main() {
-	estado, texto := variables.ConviertoaTexto(1588)
-	fmt.Println("Estado: ", estado)
-	fmt.Println("Texto: ", texto)
+	entero, cadena := ejercicios.ConversionNumerica("fff")
+
+	fmt.Println("El valor es: ", entero)
+	fmt.Println("El texto es: ", cadena)
 }
