@@ -1,7 +1,7 @@
 package main
 
-import "godesde0/iteraciones"
+import "godesde0/ejercicios"
 
 func main() {
-	iteraciones.Iterar()
+	ejercicios.TablaDeMultiplicar()
 }
